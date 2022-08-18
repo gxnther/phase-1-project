@@ -1,25 +1,42 @@
-
 <html>
-    <head>
-      <meta charset='UTF-8'/>
-      <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-      <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-      <title>Document</title>
-      <link rel='stylesheet' href='index.css'/>
-    </head>
 
-    <body>
-        <div id ="main">
-            <h2>Plant Search</h2>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Document</title>
+  <link rel='stylesheet' href='index.css' />
+  <script src='index.js'></script>
+</head>
 
-            <form id="plant-search">
-            <input id='search' type='text' name='search'>
-            <input type='submit' name='submit'/>
-          </form>
-          
-          <div id ="plant-container"></div>
-            <p id="plants"></p>
-        </div>
-        <script src='index.js'></script>
-    </body>
-    </html>
+<body>
+  <div id="main">
+    <h1>Plant Search</h2>
+
+      <form id="plant-search">
+        <input id='search' type='text' name='search'>
+        <input type='submit' name='submit' />
+      </form>
+
+      <div id="plant-container">
+        <h2 id="plantName"></h2>
+
+        <img id="plantPic"></img>
+
+        <ul id="scienceNames"></ul>
+
+        <p id="description"></p>
+
+
+        <button id="gardenButton" type="button" hidden="hidden">Add to my garden.</button>
+
+      </div>
+      <div id="garden-section">
+        <p>plants go here</p>
+        <ul id="gardenPlants">
+
+        </ul>
+      </div>
+</body>
+
+</html>
