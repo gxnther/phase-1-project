@@ -1,22 +1,25 @@
-### Ideas?
-* Save a list of crops you can plan your garden with and get information https://www.growstuff.org/ API
+### Gunther's Garden Planner
+
+A simple app that queries the growstuff.org API so you can access plant infomration, growing tips, and companion plants. If interested in growing a plant, you can add it to your virtual garden to help with your garden planning.
 
 ### Overview
 * User can search for crop and learn more about growing information and tips.
 
 ### Features
-* Form to search for crop (submit)
-* List crops 
-* Expand for more information
-* Pictures
-* Favorite plants to grow
+* Form to query crop of interest
+* List information about crop
+* List companion plants
+* Provide a picture
+* Add crop to "My Garden" if interested in growing.
+* Delete crop from garden
+
 
 ### MVP
-* Form to add crops
-* List of favorited crops / can delete
-* Plant results are displayed with picture (DCOMContentLoaded)
-* User clicks on picture for more information
+* Form to query crop of interest
+* List information about crop
+* Provide a picture
+* Add crop to "My Garden" if interested in growing.
 
 ### Stretch
-
-git checkout to go back
+* List companion plants
+* Delete crop from garden
