@@ -13,7 +13,6 @@ A simple app that queries the growstuff.org API so you can access plant infomrat
 * Add crop to "My Garden" if interested in growing.
 * Delete crop from garden
 
-
 ### MVP
 * Form to query crop of interest
 * List information about crop

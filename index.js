@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(ul)
         gardenDiv.append(ul)
 }
-
     form.addEventListener(`submit`, function (e) {
         e.preventDefault()
         scienceList.innerHTML = ""
@@ -37,11 +36,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     let listedScience = document.createElement("li")
                     listedScience.innerHTML = `
                     ${scienceName.name}`
-                    console.log(listedScience)
                     scienceList.append(listedScience)
                 })
                 description.innerHTML = plantDescription
                 button.addEventListener(`click`, handleButton)
             })
+            .catch((error) => alert("Plant not found. Please use the singular form and spell the plant correctly."))
     })
 })
